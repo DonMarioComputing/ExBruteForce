@@ -24,7 +24,7 @@ public class ArrayManipulation {
         }
 
          /**
-         * Gets a valid integer from the user (re-prompting if input is invalid).
+         * Gets a valid integer from the user
          * @param scanner the Scanner object to read input
          * @param prompt  the message to display to the user
          * @return a valid integer entered by the user

@@ -41,6 +41,14 @@ public class ArrayUtils {
 
 }
 
+//public static double calcAverage(int [] nums){
+//double total=0;
+//for (int num: num){
+//total += num;
+//}
+//return total/nums.length;}
 
 
+
+//Exercise 3.1) Finding the maximum number in an array
 
