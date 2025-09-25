@@ -25,9 +25,19 @@ public class ArrayUtils {
         }
     }
 
-
-
-
+//Exercise 2.1) Calculating the average of an array
+    /**
+     * Calculates the average of all elements in an integer array.
+     * @param arr the integer array to calculate the average of
+     * @return the average value as a double
+     */
+    public static double calcAverage(int[] arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum += num;
+        }
+        return (double) sum / arr.length;
+    }
 
 }
 
